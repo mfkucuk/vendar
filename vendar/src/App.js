@@ -139,7 +139,7 @@ const Report = () => {
                         <div className="card-body">
                             <h5 className="card-title">Project Specification Report</h5>
                             <p className="card-text">This is the Project Specification Report. It was written in 17th of November 2023.</p>
-                            <a href="https://example.com/report1.pdf" className="btn btn-primary" download>Download PDF</a>
+                            <a href="CS491_Project_Speficiation_2.pdf" className="btn btn-primary" download>Download PDF</a>
                         </div>
                     </div>
                 </div>
@@ -149,7 +149,7 @@ const Report = () => {
                         <div className="card-body">
                             <h5 className="card-title">Analysis and Requirement Report</h5>
                             <p className="card-text">This is the Analysis and Requirement Report. It was written in 8th of December 2023.</p>
-                            <a href="https://example.com/report2.pdf" className="btn btn-primary" download>Download PDF</a>
+                            <a href="CS491_Analysis_and_Requirement_Report_1.pdf" className="btn btn-primary" download>Download PDF</a>
                         </div>
                     </div>
                 </div>
