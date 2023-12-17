@@ -137,8 +137,8 @@ const Report = () => {
                 <div className="col-md-4">
                     <div className="card">
                         <div className="card-body">
-                            <h5 className="card-title">Report 1</h5>
-                            <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <h5 className="card-title">Project Specification Report</h5>
+                            <p className="card-text">This is the Project Specification Report. It was written in 17th of November 2023.</p>
                             <a href="https://example.com/report1.pdf" className="btn btn-primary" download>Download PDF</a>
                         </div>
                     </div>
@@ -147,8 +147,8 @@ const Report = () => {
                 <div className="col-md-4">
                     <div className="card">
                         <div className="card-body">
-                            <h5 className="card-title">Report 2</h5>
-                            <p className="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <h5 className="card-title">Analysis and Requirement Report</h5>
+                            <p className="card-text">This is the Analysis and Requirement Report. It was written in 8th of December 2023.</p>
                             <a href="https://example.com/report2.pdf" className="btn btn-primary" download>Download PDF</a>
                         </div>
                     </div>
@@ -157,18 +157,18 @@ const Report = () => {
                 <div className="col-md-4">
                     <div className="card">
                         <div className="card-body">
-                            <h5 className="card-title">Report 3</h5>
-                            <p className="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                            <a href="https://example.com/report3.pdf" className="btn btn-primary" download>Download PDF</a>
+                            <h5 className="card-title">Project Design Report</h5>
+                            <p className="card-text">This report will be added as soon as it is done.</p>
+                            <a style={{visibility:'hidden'}} href="https://example.com/report3.pdf" className="btn btn-primary" download>Download PDF</a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div className="mt-5 text-center">
-                <h2>GitHub Repository</h2>
+                <h2>vendAR Repository</h2>
                 <p>Explore our project on GitHub for more details and source code.</p>
-                <a href="https://github.com/your-username/your-repository" className="btn btn-dark" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+                <a href="https://github.com/vendAR-project/vendAR" className="btn btn-dark" target="_blank" rel="noopener noreferrer">vendAR Repository</a>
             </div>
         </div>
     );
