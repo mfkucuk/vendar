@@ -158,8 +158,8 @@ const Report = () => {
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">Project Design Report</h5>
-                            <p className="card-text">This report will be added as soon as it is done.</p>
-                            <a style={{visibility:'hidden'}} href="https://example.com/report3.pdf" className="btn btn-primary" download>Download PDF</a>
+                            <p className="card-text">This is the Analysis and Requirement Report. It was written in 15th of March 2024.</p>
+                            <a style={{visibility:'hidden'}} href="CS492_Detailed_Design_Report" className="btn btn-primary" download>Download PDF</a>
                         </div>
                     </div>
                 </div>
