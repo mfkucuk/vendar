@@ -45,7 +45,7 @@
   border-radius: 15px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
   height: 70vh;
-  overflow-y: auto;
+  overflow-y: hidden;
  /* This will scale (zoom out) the content to 90% */
 }
 
