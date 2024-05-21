@@ -244,7 +244,7 @@ const DemoVideo = () => {
       top: 0,
       left: 0,
       width: '100%',
-      height: '66%' // Adjusted height to take up full container height
+      height: '68%' // Adjusted height to take up full container height
     };
   
     return (

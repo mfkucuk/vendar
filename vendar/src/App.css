@@ -15,8 +15,34 @@
   background: linear-gradient(45deg, #9AEDFE, #775CFE, #63A4FF, #83E7FF);
   background-size: 800% 800%;
   animation: vaporWaveAnimation 15s ease infinite;
-  height: 100vh;
-  padding: 40px 100px;
+  min-height: 100vh;
+  padding: 20px 50px;
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 20px;
+  }
+
+  .navbar {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .content {
+    padding: 10px;
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .App {
+    padding: 10px;
+  }
+
+  .navbar {
+    padding: 5px;
+  }
 }
 
 .navbar {
@@ -44,11 +70,9 @@
   background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
-  height: 70vh;
+  height: 75vh;
   overflow-y: hidden;
- /* This will scale (zoom out) the content to 90% */
 }
-
 
 h1, h2, h3, h4 {
   font-weight: bold;
