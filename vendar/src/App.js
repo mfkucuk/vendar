@@ -197,7 +197,7 @@ const Report = () => {
                     <div style={{height: '24vh'}} className="card d-flex flex-column">
                         <div className="card-body flex-grow-1 d-flex flex-column">
                             <h5 className="card-title">Project Design Report</h5>
-                            <p className="card-text flex-grow-1">This is the Analysis and Requirement Report. It was written in 15th of March 2024.</p>
+                            <p className="card-text flex-grow-1">This is the Detailed Design Report. It was written in 15th of March 2024.</p>
                             <a href="CS492_Detailed_Design_Report.pdf" className="btn btn-primary mt-auto" style={pdfButtonStyle} download>
                                 <i className="fas fa-file-pdf" style={iconStyle}></i> Download PDF
                             </a>
